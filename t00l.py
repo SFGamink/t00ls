@@ -30,7 +30,7 @@ echo  "[+] Author   : Surya Gumawang $white          [+] " |lolcat
 echo  "[+]===========================================[+]" |lolcat
 
 echo $r"•••••••••••••••••••••••••••••••••••••••••••••${endc}";
-echo   "##### Kumpulan Tools SFGamink #####" |lolcat
+echo   "     ##### Kumpulan Tools SFGamink #####    " |lolcat
 echo $r"•••••••••••••••••••••••••••••••••••••••••••••${endc}";
 
 trap ctrl_c INT
@@ -41,7 +41,7 @@ Trying To Exit ... "
 echo  $cyan"[#]> SUNDANESE"
 sleep 1
 echo ""
-echo  $white"[#]> semoga bermanfaat :)"
+echo  $white"[#]> Pake Anu Bermanfaat Cuy!!!"
 sleep 1
 exit
 }
