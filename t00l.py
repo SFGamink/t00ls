@@ -6,12 +6,8 @@ import os,sys,time
 def main():
     time.sleep(1)
     os.system ('clear')
-    print'[91m _______ ___   ___  _       _____ '
-    print'[92m|__   __/ _ \ / _ \| |     / ____|'
-    print'[93m   | | | | | | | | | |    | (___  '
-    print'[94m   | | | | | | | | | |     \___ \ '
-    print'[95m   | | | |_| | |_| | |____ ____) |'
-    print'[96m   |_|  \___/ \___/|______|_____/ '
+    print '[96m'
+    os.system ('figlet Hacking Hub')
     print'[92m=================================='
     print'[97m Tools   :[96mSFGamink '
     print'[97m Author  :[96mSurya Gumawang '
