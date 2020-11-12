@@ -6,8 +6,6 @@ import os,sys,time
 def main():
     time.sleep(1)
     os.system ('clear')
-    print '[96m'
-    os.system ('python2 password.py')
     print'[91m _______ ___   ___  _       _____ '
     print'[92m|__   __/ _ \ / _ \| |     / ____|'
     print'[93m   | | | | | | | | | |    | (___  '
