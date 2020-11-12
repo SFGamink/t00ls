@@ -21,8 +21,8 @@ def main():
     print'[92m================================='
     print'[92m++++++++++++ [97mTOOLS [92m++++++++++++'
     print'[92m[[97m1[92m] [97mCAMERA CCTV '
-    print'[92m[[97m2[92m [97mFB TANPA LOGIN '
-    print'[92m[[97m3[92m] [97mC4LL '
+    print'[92m[[97m2[92m [98mFB TANPA LOGIN '
+    print'[92m[[97m3[92m] [99mC4LL '
     print'[92m[[97m4[92m] [97mSantet Online '
     print'[92m[[91m0[92m] [91mExit '
     gans = raw_input ('[97m=SFGAMINK=>[93m ')
