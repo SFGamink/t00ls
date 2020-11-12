@@ -1,119 +1,51 @@
-clear
-b="\033[1m"
-u="\033[4m"
-bl="\033[30m"
-r="\033[31m"
-g="\033[32m"
-bu="\033[34m"
-m="\033[35m"
-c="\033[36m"
-w="\033[37m"
-endc="\033[0m"
-enda="\033[0m"
-blue="\033[1;34m"
-cyan="\033[1;36m"
-red="\033[1;31m"
-figlet "Surya Gumawang"
-echo "Selamat datang di tools kami" |lolcat
-echo $c " ========================================== ${endc}";
-echo $c "  ████████╗░█████╗░░█████╗░██╗░░░░░░██████╗ ${endc}";
-echo $c "  ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝ ${endc}";
-echo $c "  ░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░ ${endc}";
-echo $c "  ░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗ ${endc}";
-echo $c "  ░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝ ${endc}";
-echo $c "  ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░ ${endc}";
-echo $c " ========================================== ${endc}";
+#Coded By SFGamink
 
-echo  "[+]===========================================[+]" |lolcat
-echo  "[+] Tools     : SFGamink $white               [+] " |lolcat
-echo  "[+] Author   : Surya Gumawang $white          [+] " |lolcat
-echo  "[+]===========================================[+]" |lolcat
+import os,sys,time
 
-echo $r"•••••••••••••••••••••••••••••••••••••••••••••${endc}";
-echo   "     ##### Kumpulan Tools SFGamink #####    " |lolcat
-echo $r"•••••••••••••••••••••••••••••••••••••••••••••${endc}";
 
-trap ctrl_c INT
-ctrl_c() {
-clear
-echo  $red"[#]> (Ctrl + C ) Detected,
-Trying To Exit ... "
-echo  $cyan"[#]> SUNDANESE"
-sleep 1
-echo ""
-echo  $white"[#]> Pake Anu Bermanfaat Cuy!!!"
-sleep 1
-exit
-}
-lagi=1
-while [ $lagi -lt 6 ];
-do
-sleep 1
-echo ""
-echo  "=========================================" |lolcat
-echo  $r "1.  CAMERA CCTV                        [÷]${endc}";
-echo  $g "2.  FB MASSAL TANPA LOGIN              [÷]${endc}";
-echo  $c "3.  C4LL                               [÷]${endc}";
-echo  $r "00. Exit                               [÷]${endc}";
-echo  "=========================================" |lolcat
-echo ""
-echo  "╭─SFGamink" |lolcat
-read -p "╰─#" pil;
+def main():
+    time.sleep(1)
+    os.system ('clear')
+    print '[96m'
+    os.system ('figlet TOOLS')
+    print'[92m================================='
+    print'[97m Tools   :[96mSFGamink '
+    print'[97m Author  :[96mSurya Gumawang '
+    print'[92m================================='
+    print'[92m++++++++++++ [97mTOOLS [92m++++++++++++'
+    print'[92m[[97m1[92m] [97mCAMERA CCTV '
+    print'[92m[[97m2][92m [97mFB TANPA LOGIN '
+    print'[92m[[97m3[92m] [97mC4LL '
+    print'[92m[[91m0[92m] [91mExit '
+    gans = raw_input ('[97m=SFGAMINK=>[93m ')
+    if gans in ['1']:
+        time.sleep(1)
+        os.system ('git clone https://github.com/SFGamink/sia')
+        os.system ('pkg install python3')
+        os.system ('pip3 install requests')
+        os.system ('pip3 install colorama')
+        os.system ('cd sia')
+        os.system ('python3 cctv.py')
+    if gans in ['2']:
+        time.sleep(1)
+        os.system ('git clone https://github.com/SFGamink/surya')
+        os.system ('cd surya')
+        os.system ('python2 uya.py')
+    if gans in ['3']:
+        time.sleep(1)
+        os.system ('git clone https://github.com/SFGamink/C4LL')
+        os.system ('pkg install python')
+        os.system ('pip install requests')
+        os.system ('gem install ruby')
+        os.system ('pkg install php')
+        os.system ('pip install bash')
+        os.system ('cd C4LL')
+        os.system ('python c4ll.py')
+    else:
+        time.sleep(1)
+        print '[97m Pilih CING Bener [92mNJIRR . . .'
+        time.sleep(1)
+        main()
 
-#CAMERA CCTV
-
-1) apt update && apt upgrade
-clear
-figlet "SFGamink"
-pkg install python3
-pip3 install requests
-pip3 install colorama
-git clone https://github.com/SFGamink/sia
-cd sia
-python3 cctv.py
-
-;;
-
-#FB MASSAL TANPA LOGIN
-
-2) apt update && apt upgrade
-clear
-figlet "SFGamink"
-pkg install python2
-git clone https://github.com/SFGamink/surya
-cd surya
-python2 uya.py
-
-;;
-
-#C4LL
-
-3) apt update && apt upgrade
-clear
-figlet "SFGamink"
-pkg install python
-pip install requests
-gem install ruby
-pkg install php
-pip install bash
-pkg install git
-git clone https://github.com/SFGamink/C4LL
-cd C4LL
-python2 c4ll.py
-
-;;
-
-00) clear
-figlet "SFGamink" |lolcat
-echo "Good bye" |lolcat
-echo "Jangan Bosen Untuk Memakai Tools Ini" |lolcat
-exit
-
-;;
-
-*) echo  $g "SALAH!!!,
-EWH PILIHANNA!
-TUNGGUAN UPDATENA
-esac
-done
-done
+main()
+ 
