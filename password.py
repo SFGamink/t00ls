@@ -3,7 +3,7 @@ import os, sys
 print ("\033[1;33mAbuskeun ID&PW :)")
 
 print ("\033[1;33mTools Ini Ga Gratis ;)")
-print ("\033[1;33mPM No 085659032860")
+print ("\033[1;33mChet No 085659032860")
 ID = 'UYA'      
 PW = 'FADHIL'
 
