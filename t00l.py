@@ -106,7 +106,7 @@ python2 c4ll.py
 00) clear
 figlet "SFGamink" |lolcat
 echo "Good bye" |lolcat
-echo "Jangan Kapok Untuk Memakai Tools Ini" |lolcat
+echo "Jangan Bosen Untuk Memakai Tools Ini" |lolcat
 exit
 
 ;;
