@@ -122,6 +122,7 @@ clear
 	echo $pur"SFGamink["$pur"Pilih Ayeuna"$pur"]"
 	read -p"SFGamink
     
+
     if [ $pil = 1 ]
 	then
 	clear
@@ -146,8 +147,8 @@ clear
 	pkg install git 
 	pkg install python3
 	pip3 install requests
-    pip3 install colorama
-    git clone https://github.com/SFGamink/sia
+        pip3 install colorama
+        git clone https://github.com/SFGamink/sia
 	echo -e "${y} USERNAME:SFGamink"
 	echo -e "${y} PASSWORD:#Sukaraja123"
 	echo -e "${y} Ketik cd sia"
@@ -175,13 +176,13 @@ clear
 	clear
 	figlet -f slant "SAKEUDENG"|lolcat
 	sleep 1
-    pkg install python
-    pkg install python2
-    pip install requests
-    gem install ruby
-    pkg install php
-    pip install bash
-    pkg install git
+        pkg install python
+        pkg install python2
+        pip install requests
+        gem install ruby
+        pkg install php
+        pip install bash
+        pkg install git
 	git clone https://github.com/SFGamink/C4LL
 	echo -e "${y} USERNAME:SFGamink"
 	echo -e "${y} PASSWORD:#Sukaraja123"
