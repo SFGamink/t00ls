@@ -106,7 +106,7 @@ clear
 	echo
 	echo $cy"SFGamink Menu:"
 	echo
-    echo $me"[==============="$pu"===============]"
+        echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"1"$bi"]"$i" Dark FB"
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"2"$bi"]"$i" Camera CCTV"
@@ -116,11 +116,11 @@ clear
 	echo $bi"["$pu"4"$bi"]"$i" C4LL"
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"5"$bi"]"$i" Santet Online"
-    echo $me"[==============="$pu"===============]"
+        echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
 	echo $pur"SFGamink["$pur"Pilih Ayeuna"$pur"]"
-	read -p"SFGamink
+	read -p"SFGamink" pil
     
 
     if [ $pil = 1 ]
