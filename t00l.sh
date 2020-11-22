@@ -34,7 +34,7 @@ clear
 	echo
 	echo
 	echo $blue"         ======================+++++++++++==================="
-	echo $red"            Jika Anda Gans Maka Proses Installasi akan cepat"
+	echo $red"              Tungguan weh sakedeng ath...Ni Te sabaran!"
 	sleep 1
 	echo '''\a
 	\033[32;1m                             ____
@@ -53,7 +53,7 @@ clear
 	echo
 	echo
 	echo $blue"         ======================+++++++++++==================="
-	echo $red"            Semakin Gans Semakin Cepat Masuk ke Menu"
+	echo $red"                  Saetik Deui Kalem Weh Ath Bangsul"
 	sleep 1
 	echo '''\a
 	\033[35;1m                            _____
@@ -68,7 +68,7 @@ clear
 	echo
 	echo
 	echo $blue"         ======================+++++++++++==================="
-	echo $red"            Btw Jika Anda Cewe hubungi :081316577616"
+	echo $red"            Sabar Bangsul Saetik Deui Asli Te Ngabohong"
 	sleep 1
 	echo '''\a
 	\033[33;1m                            _  _
