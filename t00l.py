@@ -10,7 +10,7 @@ clear
 	BrightBlue='\033[34m' #Cahaya Biru
 	echo
 	echo
-	python2 sploit.py
+	python2 login.py
 	echo
 	clear
 	echo
