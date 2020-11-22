@@ -6,7 +6,7 @@ $ pkg install php
 
 $ pkg install python2
 
-$ pkg install mechanize
+$ pip2 install mechanize
 
 $ pkg install openssh
 
