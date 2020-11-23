@@ -119,8 +119,8 @@ clear
         echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
-	echo $pur"SFGamink["$pur"Pilih Ayeuna"$pur"]"
-	read -p"SFGamink" pil
+	echo $pur"["$pur"Pilih Cing Bener!!!"$pur"]"
+	read -p"=SFGamink>" pil
     
 
     if [ $pil = 1 ]
@@ -131,10 +131,8 @@ clear
 	pkg install git python2
 	pip2 install --upgrade pip
 	git clone https://github.com/SFGamink/gelap
-	echo -e "${y} USERNAME:SFGamink"
-	echo -e "${y} PASSWORD:#Sukaraja123"
-	echo -e "${y} Ketik cd gelap"
-	echo -e "${y} Terus python2 padam.py"
+	cd gelap
+	python2 padam.py
 	fi
 	
 
@@ -149,10 +147,8 @@ clear
 	pip3 install requests
         pip3 install colorama
         git clone https://github.com/SFGamink/sia
-	echo -e "${y} USERNAME:SFGamink"
-	echo -e "${y} PASSWORD:#Sukaraja123"
-	echo -e "${y} Ketik cd sia"
-	echo -e "${y} Terus python3 cctv.py"
+	cd sia
+	python3 cctv.py
 	fi
 	
 
@@ -164,10 +160,8 @@ clear
 	pkg install pyton2
 	pkg install git
 	git clone https://github.com/SFGamink/surya
-	echo -e "${y} USERNAME:SFGamink"
-	echo -e "${y} PASSWORD:#Sukaraja123"
-	echo -e "${y} Ketik cd surya"
-	echo -e "${y} Terus python2 uya.py"
+	cd surya
+	python2 uya.py
 	fi
 	
 
@@ -179,21 +173,21 @@ clear
         pkg install python
         pkg install python2
         pip install requests
-        gem install ruby
         pkg install php
         pip install bash
         pkg install git
 	git clone https://github.com/SFGamink/C4LL
-	echo -e "${y} USERNAME:SFGamink"
-	echo -e "${y} PASSWORD:#Sukaraja123"
-	echo -e "${y} Ketik cd C4LL"
-	echo -e "${y} Terus python c4ll.py"
+	cd C4LL
+	python c4ll.py
 	fi
     
     if [ $pil = 5 ]
 	then
 	clear
-	figlet -f slant "Maaf Tools ini Sedang Close"|lolcat
+	figlet -f slant "Selamat"|lolcat
+	figlet -f slant "Anda"|lolcat
+	figlet -f slant "Kena"|lolcat
+	figlet -f slant "Prank"|lolcat
 	sleep 1
 	echo -e "${y} MAU AJA DITIPU"
 	echo -e "${y} TUNGGUIN UPDATE NYA LAH"
@@ -204,7 +198,7 @@ clear
     if [ $pil = 00 ]
 	then
 	clear
-	figlet -f slant "SAKEUDENG"|Ulolcat
+	figlet -f slant "Dadah"|Ulolcat
 	sleep 2
 	echo $cy"NUHUN TOS GUNAKEUN ALAT IEU"
 	sleep 2
