@@ -104,7 +104,7 @@ clear
 	echo $i"[" $me" TOOLS FREE USE, NO NEED TO PAYS" $pu"!!!" $i"]"
 	echo #pu"~~~~~~~~~~~~~~~~~~~~~"$me"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	echo
-	echo $cy"SFGamink Menu:"
+	echo $cy"TOOLS:"
 	echo
         echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"1"$bi"]"$i" Dark FB"
