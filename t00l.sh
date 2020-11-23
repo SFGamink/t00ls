@@ -198,7 +198,7 @@ clear
     if [ $pil = 00 ]
 	then
 	clear
-	figlet -f slant "Dadah"|Ulolcat
+	figlet -f slant "Dadah"|lolcat
 	sleep 2
 	echo $cy"NUHUN TOS GUNAKEUN ALAT IEU"
 	sleep 2
