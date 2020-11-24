@@ -82,8 +82,7 @@ clear
 	echo
 	echo
 	echo
-	echo $white"         Prosses failed to go to the Main Menu"
-	echo $red"            F For Respect"
+	echo $white"         Proses Abus Ka Menu Tungguan Weh Sakedeng"
 	sleep 1
 	echo '''\a
 	\033[36;1m                             ____
@@ -185,14 +184,17 @@ clear
 	then
 	clear
 	figlet -f slant "Selamat"|lolcat
+	sleep 1
 	figlet -f slant "Anda"|lolcat
+	sleep 1
 	figlet -f slant "Kena"|lolcat
+	sleep 1
 	figlet -f slant "Prank"|lolcat
 	sleep 1
-	echo -e "${y} MAU AJA DITIPU"
-	echo -e "${y} TUNGGUIN UPDATE NYA LAH"
-	echo -e "${y} ENTAR BEBERAPA BULAN LGI"
-	echo -e "${y} TUNGGUAN WEH"
+	echo -e "MAU AJA DITIPU"
+	echo -e "TUNGGUIN UPDATE NYA LAH"
+	echo -e "ENTAR BEBERAPA BULAN LGI"
+	echo -e "TUNGGUAN WEH"
 	fi
     
     if [ $pil = 00 ]
