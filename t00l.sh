@@ -99,7 +99,7 @@ clear
 	echo $i"##"$me"  Blogger :  permulaanmyblog.bogspot.com"$i"   ##"
 	echo $i"##"$pu"  TEAM    :  SFGamink"$i"                      ##"
 	echo $pur"==================="$cy" ============================="
-	echo $i"[" $me" INI TOOLS GERATIS GAYN", $bi"DILARANG KERAD MENJUALNYA KE PIHAK LAINNYA" $i"]"
+	echo $i"[" $me" Di Puji Tidak Terbang", $bi"DI Hina Tidak Tumbang" $i"]"
 	echo $i"[" $me" TOOLS FREE USE, NO NEED TO PAYS" $pu"!!!" $i"]"
 	echo #pu"~~~~~~~~~~~~~~~~~~~~~"$me"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	echo
