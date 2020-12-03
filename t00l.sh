@@ -118,7 +118,6 @@ clear
         echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
-	echo $pur"["$pur"Pilih Cing Bener!!!"$pur"]"
 	read -p"('╚═\x1b[1;91mSFGamink\x1b[1;91m▶\x1b[1;97m ')" pil
     
 
