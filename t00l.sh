@@ -94,10 +94,10 @@ clear
 	clear
 	echo
 	echo $pur"==================="$cy" ============================="
-	echo $i"##"$me"  AUTHOR  :  Surya Gumawang "$i"               ##"
-	echo $i"##"$pu"  WhatsApp:  085659032860"$i"                  ##"
-	echo $i"##"$me"  Blogger :  permulaanmyblog.bogspot.com"$i"   ##"
-	echo $i"##"$pu"  TEAM    :  SFGamink"$i"                      ##"
+	echo $i"##"$me"  AUTHOR  :  Surya Gumawang "$i"                ##"
+	echo $i"##"$pu"  WhatsApp:  085659032860"$i"                   ##"
+	echo $i"##"$me"  Blogger :  permulaanmyblog.bogspot.com"$i"    ##"
+	echo $i"##"$pu"  TEAM    :  SFGamink"$i"                       ##"
 	echo $pur"==================="$cy" ============================="
 	echo $i"[" $me" Di Puji Tidak Terbang", $bi"DI Hina Tidak Tumbang" $i"]"
 	echo $i"[" $me" TOOLS FREE USE, NO NEED TO PAYS" $pu"!!!" $i"]"
@@ -118,7 +118,7 @@ clear
         echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
-	read -p"('╚═\x1b[1;91mSFGamink\x1b[1;91m▶\x1b[1;97m ')" pil
+	read -p"('╚═\x1b[1;91mSFGamink\x1b[1;91m▶\x1b[1;97m')" pil
     
 
     if [ $pil = 1 ]
